@@ -4,6 +4,7 @@ package br.com.senai.futurodev.exercicios.main;
 import br.com.senai.futurodev.exercicios.exercicio01.Arvore;
 import br.com.senai.futurodev.exercicios.exercicio02.EmissaoDeCarbono;
 import br.com.senai.futurodev.exercicios.exercicio03.Animal;
+import br.com.senai.futurodev.exercicios.exercicio04.Planta;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,6 +32,13 @@ public class Main {
         burro.alimentar();
         burro.emitirSom();
         burro.mover();
+
+        Planta planta01 = new Planta("alcafe", "horta", 2);
+
+        planta01.calcularNecessidadeDeAgua(6);
+        planta01.irrigar();
+
+
 
     }
 
