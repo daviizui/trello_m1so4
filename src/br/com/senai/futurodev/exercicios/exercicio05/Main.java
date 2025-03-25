@@ -25,6 +25,8 @@ public class Main {
         System.out.println("Idade: " + pessoa01.calcularIdade() + "anos.");
         System.out.println("Frequência cardíaca máxima: " + pessoa01.calculaFrequenciaCardiacaMaxima() + "bpm");
         System.out.println("Frequência cardíaca alvo: " + pessoa01.calculaFrequenciaCardiacaAlvo() + "bpm");
+        LocalDate dn = LocalDate.of(1994,9,8);
+        FrequenciaCardiaca p = new FrequenciaCardiaca("d","d",dn);
 
     }
 }

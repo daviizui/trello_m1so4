@@ -51,9 +51,9 @@ public class FrequenciaCardiaca {
     }
 
     public String calculaFrequenciaCardiacaAlvo(){
-        int frequanciaMaxima = calculaFrequenciaCardiacaMaxima();
-        int frequenciaAlvoMinima = (int)(frequanciaMaxima * 0.50);
-        int frequenciaAlvoMaxima = (int)(frequanciaMaxima * 0.85);
+        int frequenciaMaxima = calculaFrequenciaCardiacaMaxima();
+        int frequenciaAlvoMinima = (int)(frequenciaMaxima * 0.50);
+        int frequenciaAlvoMaxima = (int)(frequenciaMaxima * 0.85);
         return frequenciaAlvoMinima + " - " + frequenciaAlvoMaxima;
     }
 }
